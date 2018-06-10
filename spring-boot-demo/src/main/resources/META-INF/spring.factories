@@ -1,0 +1,5 @@
+##EnvironmentPostProcessor implementations have to be registered in
+##{@code META-INF/spring.factories}, using the fully qualified name of this class as the key.
+##
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.github.fish.spring4.config.MyEnvironmentPostProcessor
